@@ -2,112 +2,163 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
-	<title>CAFUNÉ</title>
-	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,700" rel="stylesheet">
+	<title>CAFUNÉ | Как ухаживать за волосами в домашних условиях.</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/min-style.css">
+	<link rel="stylesheet" type="text/css" href="css/minstyle.css">
+	<link rel="icon" href="https://hair-cafune.ru/favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="CAFUNÉ - сайт о том как правильно заботиться о здоровье и красоте волос. Здесь вы найдете интересные статьи о средствах для волос и кожи головы, обзоры лучших технических приборов для укладки волос в домашних условиях, советы по выбору косметических продуктов и многое другое."/>
 </head>
 <body>
 	<header class="main-header">
+		<h1 class="visually-hidden">Как ухаживать за волосами в домашних условиях</h1>
 		<nav class="main-navigation" aria-label="Содержимое меню">
 			<div class="container">
 				<ul class="navigation-items">
 					<li class="active-item"><a class="active-page">Главная</a></li>
-					<li><a href="#">Уход</a></li>
-					<li><a href="#">Покраска</a></li>
-					<li><a href="#">Стрижка</a></li>
-					<li><a href="#">Эпиляция</a></li>
-					<li><a href="#">Брови и ресницы</a></li>
+					<li class="nav-item"><a href="inner-care.html">Уход</a></li>
+					<li class="nav-item"><a href="inner-hair-coloring.html">Покраска</a></li>
+					<li class="nav-item"><a href="inner-hairstyle.html">Стиль</a></li>
+					<li class="nav-item"><a>Эпиляция</a></li>
+					<li class="nav-item"><a href="inner-brows-lashes.html">Брови и ресницы</a></li>
 				</ul>
+				<span class="burger-menu" id="burger"></span>
 			</div>
 		</nav>
-
-		<div class="container">
-			<a class="logo-title">CAFUNÉ<span class="line"></span></a>
-			<h1 class="header-title">Всё о красоте и здоровье волос</h1>
-		</div>
+		<section class="main-content-promo">
+			<h2 class="visually-hidden">Советы по уходу за волосами</h2>
+			<div class="">
+				<input class="visually-hidden" type="radio" id="slide-1" name="toggle" checked>
+				<input class="visually-hidden" type="radio" id="slide-2" name="toggle">
+				<input class="visually-hidden" type="radio" id="slide-3" name="toggle">
+				<div class="slider-controls">
+					<label class="slider-controls-item slider-controls-item-1" for="slide-1">Слайд 1</label>
+					<label class="slider-controls-item slider-controls-item-2" for="slide-2">Слайд 2</label>
+					<label class="slider-controls-item slider-controls-item-3" for="slide-3">Слайд 3</label>
+				</div>
+				<ul class="promo-slider">
+					<li class="slide">
+						<div class="container">
+							<span class="logostyle"></span>
+							<h2 class="logo-title">CAFUNÉ</h2>
+							<p>Всё о красоте и здоровье волос</p>
+						</div>
+					</li>
+					<li class="slide">
+						<div class="container">
+							<span class="logostyle"></span>
+							<h2 class="logo-title">CAFUNÉ</h2>
+							<p>Всё о красоте и здоровье волос</p>
+						</div>
+					</li>
+					<li class="slide">
+						<div class="container">
+							<span class="logostyle"></span>
+							<h2 class="logo-title">CAFUNÉ</h2>
+							<p>Всё о красоте и здоровье волос</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
 	</header>
 
-
 	<main class="main-content">
+
 		<section class="short-post cosmetics-post container">
 			<p class="post-image">
-				<img src="img/F_20307.jpg" width="400" height="400" alt="">
+				<img src="img/mainpage/hair-skin-oils.jpg" width="400" height="400" alt="Масла для волос и кожи">
+			</p>
+			<div class="post-fragment">
+				<h2 class="post-title">Лучшие масла по уходу за волосами</h2>
+				<p>Тонкие, непослушные, вьющиеся, пушистые, здоровые, ломкие, тусклые, гладкие, прямые и так до бесконечности... Какими бы ни были Ваши волосы, им всегда требуются внимание, уход и защита. Питательные кислоты + полезные натуральные компоненты и витамины = здоровые ухоженные волосы и кожа. Откройте для себя и своих волос нежную формулу масел.</p>
+				<a class="btn btn-gold btn-gold-hover" href="oils.html">Подробнее</a>
+			</div>
+		</section>
+
+		<section class="short-post cosmetics-post container">
+			<p class="post-image">
+				<img src="img/mainpage/hair-cosmetic.jpg" width="400" height="400" alt="Косметические средства">
 			</p>
 			<div class="post-fragment">
 				<h2 class="post-title">Косметические средства по уходу за волосами</h2>
-				<p>Волосы являются не только естественным объектом красоты человека, но и выполняют важные функции в его жизни: защищают от перегрева или переохлаждения, от внешних травм и повреждений, реагируют на ухудшение здоровья организма.</p>
-				<!--<a class="button button-gold button-middle button-effect" href="#">Подробнее<span></span></a>-->
-				<a class="btn btn-gold btn-gold-hover" href="#">Подробнее</a>
+				<p>На красоту и здоровье волос немалое влияние оказывают внешние факторы: жёсткость воды, сушка феном, применение утюжков, стайлеров и плоек, химическая и биозавивка, окрашивание, и т.д. После таких процедур волосам необходимо восстановление жизненных сил и тонуса. Скорую помощь на этом этапе могут оказать косметические средства и процедуры по уходу за волосами.</p>
+				<a class="btn btn-gold btn-gold-hover" href="inner-care.html">Подробнее</a>
 			</div>
 		</section>
 
 		<section class="short-post container">
+			<p class="post-image">
+				<img src="img/mainpage/hair-brushes.jpg" width="400" height="400" alt="Расчёски">
+			</p>
 			<div class="post-fragment">
 				<h2 class="post-title">Выбираем расчески</h2>
-				<p>Волосы являются не только естественным объектом красоты человека, но и выполняют важные функции в его жизни: защищают от перегрева или переохлаждения, от внешних травм и повреждений, реагируют на ухудшение здоровья организма.</p>
-				<!--<a class="button button-gold button-middle button-effect" href="#">Подробнее<span></span></a>-->
-				<a class="btn btn-gold btn-gold-hover" href="#">Подробнее</a>
+				<p>У каждого из нас есть своя любимая расчёска, которой мы пользуемся в основном для того, чтобы причесать волосы, привести их в порядок. И чаще всего в домашних условиях мы используем один и тот же предмет для расчёсывания, укладки и сушки, распутывания, создания причёски. Но такой подход может оказаться чреватым для здоровья волос и кожи головы. Для каждой расчёски есть своё специальное предназначение.</p>
+				<a class="btn btn-gold btn-gold-hover" href="brushes.html">Подробнее</a>
 			</div>
-			<p class="post-image">
-				<img src="img/Linea-oro.jpg" width="400" height="400" alt="">
-			</p>
 		</section>
 
+		<div class="edits-wrapper">
 		<section class="edits-blocks container">
-			<h2 class="center-title">3 простых шага для красоты волос</h2>
+			<h2 class="center-title">Три простых шага для красоты волос</h2>
 			<ul class="edits-items">
 				<li>
 					<p class="edits-item-image">
-						<img src="img/examples/shampoo1.png" width="200" height="200" alt="shampoo">
+						<img src="img/mainpage/shampoo-example.png" width="200" height="200" alt="Шампунь для волос">
 					</p>
 					<h3 class="edits-item-subtitle">Шаг 1: Шампунь</h3>
-					<p>Правильно подобранный шампунь не только избавит вас от перхоти и жирноcти, но и придаст объем, пышность и здоровый блекс волосам.</p>
-					<a class="gold-link" href="#">Читать далее</a>
+					<p>Правильно подобранный шампунь не только избавит вас от перхоти и жирноcти, но и придаст объём, пышность и здоровый блекс волосам. Ассортимент шампуней достаточно велик и здесь важно не ошибиться в выборе подходящего моющего средства для волос.</p>
+					<a class="gold-link" href="shampoo.html">Читать далее</a>
 				</li>
 				<li>
 					<p class="edits-item-image">
-						<img src="img/examples/conditioner.png" width="200" height="200" alt="conditioner">
+						<img src="img/mainpage/conditioner-example.png" width="200" height="200" alt="Бальзам для волос">
 					</p>
 					<h3 class="edits-item-subtitle">Шаг 2: Бальзам/кондиционер</h3>
-					<p>Правильно подобранный шампунь не только избавит вас от перхоти и жирного блеска, но и придаст объем, пышность и здоровый блекс волосам.</p>
-					<a class="gold-link" href="#">Читать далее</a>
+					<p>Для лёгкого и беспрепятственного расчёсывания, гладкости и блеска хорошими помощниками являются бальзамы-ополаскиватели и кондиционеры для волос. Эти косметические средства предназначены для ухода за волосами, улучшения их структуры, укрепления кутикулы, придания эластичности и упругости.</p>
+					<a class="gold-link">Читать далее</a>
 				</li>
 				<li>
 					<p class="edits-item-image">
-						<img src="img/examples/mask.png" width="200" height="200" alt="conditioner">
+						<img src="img/mainpage/mask-example.png" width="200" height="200" alt="Маска для волос">
 					</p>
 					<h3 class="edits-item-subtitle">Шаг 3: Маска для волос</h3>
-					<p>Правильно подобранный шампунь не только избавит вас от перхоти и жирного блеска, но и придаст объем, пышность и здоровый блекс волосам.</p>
-					<a class="gold-link" href="#">Читать далее</a>
+					<p>Маски для волос хороши своими уникальными свойствами. В состав этих косметических средств входят различные органические масла, растительные экстракты, витамины и полезные химические соединения. Маски являются мощными защитниками волос от внешних воздействий и окружающей среды. Способствуют быстрому проникновению в подкожные слои и фолликулы, питают волосы изнутри и укрепляют их снаружи.</p>
+					<a class="gold-link">Читать далее</a>
 				</li>
-				<!--<li>
-					<p class="edits-item-image">
-						<img src="img/examples/oil.png" width="200" height="200" alt="conditioner">
-					</p>
-					<h3 class="edits-item-subtitle">Шаг 4: Мало для волос</h3>
-					<p>Правильно подобранный шампунь не только избавит вас от перхоти и жирного блеска, но и придаст объем, пышность и здоровый блекс волосам.</p>
-					<a class="gold-link" href="#">Читать далее</a>
-				</li>-->
 			</ul>
 		</section>
+		</div>
 
-		<section class="short-post cosmetics-post container">
-			<p class="post-image">
-				<img src="img/recepts/recept-1.png" width="400" height="400" alt="">
-			</p>
-			<div class="post-fragment">
-				<h2 class="post-title">Косметические средства по уходу за волосами</h2>
-				<p>Волосы являются не только естественным объектом красоты человека, но и выполняют важные функции в его жизни: защищают от перегрева или переохлаждения, от внешних травм и повреждений, реагируют на ухудшение здоровья организма.</p>
-				<!--<a class="button button-gold button-middle button-effect" href="#">Подробнее<span></span></a>-->
-				<a class="btn btn-gold btn-gold-hover" href="#">Подробнее</a>
-			</div>
-		</section>
-
-		<div class="large-container">
-			<section class="container">
-				<h2 class="post-title">Выбираем расчески</h2>
-				<p>Волосы являются не только естественным объектом красоты человека, но и выполняют важные функции в его жизни: защищают от перегрева или переохлаждения, от внешних травм и повреждений, реагируют на ухудшение здоровья организма.</p>
+		<div class="large-wrapper large-wrapper-1">
+			<section class="large-box large-box-1">
+				<h2 class="large-box-title">Красивая объёмная укладка волос в домашних условиях</h2>
+				<ul class="large-box-items">
+					<li>
+						<a aria-label="Ссылка на страницу Шампуни">
+							<span class="circle-icon circle-icon-1"></span>
+							<p>Вымойте волосы шампунем и затем нанесите бальзам-ополаскиватель или кондиционер, оставьте на несколько минут. Тщательно смойте косметические средства тёплой водой.</p>
+						</a>
+					</li>
+					<li>
+						<a aria-label="Ссылка на страницу Расчёски">
+							<span class="circle-icon circle-icon-2"></span>
+							<p>Заверните волосы в махровое полотенце и оставьте на некоторое время, пока не впитается лишнаяя вода. Бережно расчешите влажные волосы, чтобы избавиться от спутанных узелков.</p>
+						</a>
+					</li>
+					<li>
+						<a aria-label="Ссылка на страницу Средства для укладки волос">
+							<span class="circle-icon circle-icon-3"></span>
+							<p>Подготовье пряди для создания укладки: распределите термозащитные средства по всей длине волос, начиная с кончиков, затем нанесите спрей для придания прикорневого объёма.</p>
+						</a>
+					</li>
+					<li>
+						<a aria-label="Ссылка на страницу Фены">
+							<span class="circle-icon circle-icon-4"></span>
+							<p>Разделите волосы на пряди, начинайте укладку с лобной или затылочной части, собрав остальные волосы в пучёк. Натяните прядь на брашинг и просушивайте феном, слегка вытягивая волосы вверх.</p>
+						</a>
+					</li>
+				</ul>
 			</section>
 		</div>
 
@@ -115,142 +166,195 @@
 			<h2 class="center-title">Подборка легких причесок на каждый день</h2>
 			<ul class="gallery-items">
 				<li>
-					<a class="image-item" href="#">
-						<img src="img/1.jpg" width="353" height="353" alt="">
+					<a class="image-item">
+						<img src="img/mainpage/hairstyle-1.jpg" width="353" height="353" alt="Широкие косы по бокам, переходящие в хвост">
 						<span class="overlay-bg"></span>
 					</a>
 				</li>
 				<li>
-					<a class="image-item" href="#">
-						<img src="img/3.jpg" width="353" height="353" alt="">
+					<a class="image-item">
+						<img src="img/mainpage/hairstyle-2.jpg" width="353" height="353" alt="Оригинальная шишечка">
 						<span class="overlay-bg"></span>
 					</a>
 				</li>
 				<li>
-					<a class="image-item" href="#">
-						<img src="img/4.jpg" width="353" height="353" alt="">
+					<a class="image-item">
+						<img src="img/mainpage/hairstyle-3.jpg" width="353" height="353" alt="Слегка завитые локоны">
 						<span class="overlay-bg"></span>
 					</a>
 				</li>
 				<li>
-					<a class="image-item" href="#">
-						<img src="img/2.jpg" width="353" height="353" alt="">
+					<a class="image-item">
+						<img src="img/mainpage/hairstyle-4.jpg" width="353" height="353" alt="Слабая коса, переходящая в хвост">
 						<span class="overlay-bg"></span>
 					</a>
 				</li>
 				<li>
-					<a class="image-item" href="#">
-						<img src="img/5.jpg" width="353" height="353" alt="">
+					<a class="image-item">
+						<img src="img/mainpage/hairstyle-5.jpg" width="353" height="353" alt="Две шишечки">
 						<span class="overlay-bg"></span>
 					</a>
 				</li>
 				<li>
-					<a class="image-item" href="#">
-						<img src="img/6.jpg" width="353" height="353" alt="">
+					<a class="image-item">
+						<img src="img/mainpage/hairstyle-6.jpg" width="353" height="353" alt="Слегка накрученный локоны с косой, переходящей в хвост">
 						<span class="overlay-bg"></span>
 					</a>
 				</li>
 			</ul>
 		</section>
 
-		<div class="special-wrapper">
-			<div class="special-edits container">
-				<section class="special-block">
-					<h2 class="center-title">Масла для волос</h2>
-					<p>Масло усьмы, Масло черного тмина, Эфирное масло бея, Масло арганы, Масло авокадо, Масло виноградных косточек, Масло амлы, Масло жожоба, Масло эфирное иланг-иланга, Масло эфирное литсея-кубеба</p>
-				</section>
-				<!--<section class="special-block">
-					<h2 class="center-title">Масла для волос</h2>
-					<p>Масло усьмы, Масло черного тмина, Эфирное масло бея, Масло арганы, Масло авокадо, Масло виноградных косточек, Масло амлы, Масло жожоба, Масло эфирное иланг-иланга, Масло эфирное литсея-кубеба</p>
-				</section>-->
-			</div>
+		<div class="large-wrapper large-wrapper-2">
+			<section class="large-box large-box-2">
+				<div class="container">
+					<h2 class="large-box-title">Секрет арганового масла</h2>
+					<p>Аргановые масла являются одним из редких компонентов, входящих в состав косметики. Растительные масла богаты каротином, полиненасыщенными жирными кислотами, химическими соединениями (токоферолами).</p>
+					<p>Масло арганы применяется в качестве косметического средства по уходу за волосами, оно питает кожу головы и корни волос, укрепляет и восстанавливает их структуру, придаёт насыщенный естественный блеск. Эти масла также применяют в различных средствах по уходу за кожей.</p>
+					<p>Применять масла арганового происхождения следует с осторожностью, поскольку могут возникать аллергические реакции.</p>
+				</div>
+			</section>
 		</div>
-		
 
 		<section class="short-post container">
 			<p class="post-image">
-				<img src="img/rallonges_de_cils_beauport.jpg" width="400" height="400" alt="">
+				<img src="img/mainpage/termal-water.jpg" width="400" height="400" alt="Термальная вода">
 			</p>
+			<div class="post-fragment">
+				<h2 class="post-title">Термальная вода</h2>
+				<p>Сухой воздух, горячие солнечные лучи, душные помещения или волнительные события - какой бы ни была окружающая обстановка, в такие моменты хочется окунуться в прохладу, освежиться, получить заряд бодрости. Если за окном нет моря или принять лёгкий душ нет возможности - существует прекрасное средство, способное облегчить переносимость жары и предупредить обезвоживание! И это средство - термальная вода.</p>
+				<a class="btn btn-gold btn-gold-hover" href="thermal-water.html">Подробнее</a>
+			</div>
+		</section>
+
+		<section class="short-post cosmetics-post container">
+			<p class="post-image">
+				<img src="img/mainpage/hair-skin-oils-lux.jpg" width="400" height="400" alt="Масла для волос и кожи">
+			</p>
+			<div class="post-fragment">
+				<h2 class="post-title">Горячая топ-десятка элитных масел для волос и кожи</h2>
+				<p>Масляная лихорадка буквально заразила бОльшую часть прекрасной половины человечества. Каждая обладательница такого флакончика осознаёт, что не может прожить ни дня без питательного янтарного эликсира. Мерцающие частички в сочетании с драгоценными маслами преображают и очаровывают. Хотите добавить искорку шарма своему телу и волосам, ловить восторженные взгляды, тогда, это масло - ваш незаменимый спутник.</p>
+				<a class="btn btn-gold btn-gold-hover" href="oils-premium.html">Подробнее</a>
+			</div>
+		</section>
+
+		<!--<section class="short-post container">
 			<div class="post-fragment">
 				<h2 class="post-title">Наращивание ресниц</h2>
-				<p>Волосы являются не только естественным объектом красоты человека, но и выполняют важные функции в его жизни: защищают от перегрева или переохлаждения, от внешних травм и повреждений, реагируют на ухудшение здоровья организма.</p>
-				<!--<a class="button button-gold button-middle button-effect" href="#">Подробнее<span></span></a>-->
-				<a class="btn btn-gold btn-gold-hover" href="#">Подробнее</a>
-			</div>
-		</section>
-		<section class="short-post container">
-			<div class="post-fragment">
-				<h2 class="post-title">Эпиляция</h2>
-				<p>Волосы являются не только естественным объектом красоты человека, но и выполняют важные функции в его жизни: защищают от перегрева или переохлаждения, от внешних травм и повреждений, реагируют на ухудшение здоровья организма.</p>
-				<!--<a class="button button-gold button-middle button-effect" href="#">Подробнее<span></span></a>-->
-				<a class="btn btn-gold btn-gold-hover" href="#">Подробнее</a>
+				<p>Наращивание ресниц приобрело огромную популярность среди модниц. Если природа не наградила длинными, пышными ресницами или просто хочется подчеркнуть женственный образ, то эта процедура отлично справится с поставленными задачами. Но взамен красота всегда требует жертв, поэтому чтобы сократить риск потерь, стоит хорошо ознакомиться с процессом наращивания.</p>
+				<a class="btn btn-gold btn-gold-hover">Подробнее</a>
 			</div>
 			<p class="post-image">
-				<img src="img/sugaring.jpg" width="400" height="400" alt="">
+				<img src="img/mainpage/lashes.jpg" width="400" height="400" alt="Наращивание ресниц">
 			</p>
 		</section>
 
+		<section class="short-post container">
+			<p class="post-image">
+				<img src="img/mainpage/sugaring.jpg" width="400" height="400" alt="Шугаринг">
+			</p>
+			<div class="post-fragment">
+				<h2 class="post-title">Эпиляция или депиляция</h2>
+				<p>Процесс удаления нежелательных волос на теле - вопрос щепетильный и деликатный. Добиться гладкости кожи и красивого блеска возможно несколькими способами. А вот какой из них быстрее, эффективнее, безболезненнее и лучше всего подходит - выбирать только вам.</p>
+				<a class="btn btn-gold btn-gold-hover">Подробнее</a>
+			</div>
+		</section>-->
 	</main>
-	
+
 	<footer class="main-footer">
 		<div class="container">
 			<div class="footer-top">
 				<section class="footer-block footer-popular">
 					<h2 class="footer-popular-title title-style">Популярные статьи</h2>
 					<figure class="footer-popular-gallery">
-						<a href="#" aria-label="Косы">
-							<img src="img/extension1.jpg" width="100" height="100" alt="Косы" title="">
+						<a class="image-item" aria-label="Завивка">
+							<img src="img/mainpage/popular-1.jpg" width="100" height="100" alt="Завивка">
+							<span class="footer-overlay-bg"></span>
 						</a>
-						<a href="#" aria-label="Плойки">
-							<img src="img/styling-long-hair.jpg" width="100" height="100" alt="Плойки" title="">
+						<a class="image-item" aria-label="Стрижки">
+							<img src="img/mainpage/popular-2.jpg" width="100" height="100" alt="Стрижки">
+							<span class="footer-overlay-bg"></span>
 						</a>
-						<a href="#" aria-label="Стрижки">
-							<img src="img/AdobeStoc1.jpeg" width="100" height="100" alt="Стрижки" title="">
-						</a> 
-						<a href="#" aria-label="Расчески">
-							<img src="img/4.jpg" width="100" height="100" alt="Расчески" title="">
+						<a class="image-item" aria-label="Косы">
+							<img src="img/mainpage/popular-3.jpg" width="100" height="100" alt="Косы">
+							<span class="footer-overlay-bg"></span>
 						</a>
-						<a href="#" aria-label="Окрашивание волос">
-							<img src="img/5.jpg" width="100" height="100" alt="Окрашивание волос" title="">
+						<a class="image-item" href="brushes.html" aria-label="Расчески">
+							<img src="img/mainpage/popular-4.jpg" width="100" height="100" alt="Расчески">
+							<span class="footer-overlay-bg"></span>
 						</a>
-						<a href="#" aria-label="Уход за волосами">
-							<img src="img/6.jpg" width="100" height="100" alt="Уход за волосами" title="">
+						<a class="image-item" href="inner-hair-coloring.html" aria-label="Окрашивание волос">
+							<img src="img/mainpage/popular-5.jpg" width="100" height="100" alt="Окрашивание волос">
+							<span class="footer-overlay-bg"></span>
+						</a>
+						<a class="image-item" href="inner-care.html" aria-label="Уход за волосами">
+							<img src="img/mainpage/popular-6.jpg" width="100" height="100" alt="Уход за волосами">
+							<span class="footer-overlay-bg"></span>
 						</a>
 					</figure>
 				</section>
+
 				<section class="footer-block footer-tags">
 					<h2 class="footer-tags-title title-style">Тэги</h2>
 					<ul class="footer-tags-items">
-						<li><a href="#">Уход</a></li>
-						<li><a href="#">Маски</a></li>
-						<li><a href="#">Стрижки</a></li>
-						<li><a href="#">Прически</a></li>
-						<li><a href="#">Витамины</a></li>
-						<li><a href="#">Шампуни</a></li>
-						<li><a href="#">Покраска</a></li>
-						<li><a href="#">Брови</a></li>
-						<li><a href="#">Ресницы</a></li>
-						<li><a href="#">Наращивание</a></li>
-						<li><a href="#">Эпиляция</a></li>
-						<li><a href="#">Шугаринг</a></li>
-						<li><a href="#">Хна</a></li>
-						<li><a href="#">Расчески</a></li>
-						<li><a href="#">Бальзамы</a></li>
-						<li><a href="#">Отвары</a></li>
-						<li><a href="#">Завивка</a></li>
+						<li><a href="inner-care.html">Уход</a></li>
+						<li><a>Маски</a></li>
+						<li><a>Стрижки</a></li>
+						<li><a href="inner-hairstyle.html">Прически</a></li>
+						<li><a>Витамины</a></li>
+						<li><a href="shampoo.html">Шампуни</a></li>
+						<li><a href="inner-hair-coloring.html">Покраска</a></li>
+						<li><a href="inner-brows-lashes.html">Брови</a></li>
+						<li><a href="inner-brows-lashes.html">Ресницы</a></li>
+						<li><a>Эпиляция</a></li>
+						<li><a>Шугаринг</a></li>
+						<li><a href="natural-hair-coloring.html">Хна</a></li>
+						<li><a href="brushes.html">Расчески</a></li>
+						<li><a>Бальзамы</a></li>
+						<li><a>Завивка</a></li>
+						<li><a href="perfume.html">Парфюм</a></li>
 					</ul>
 				</section>
+
 				<section class="footer-block footer-info">
 					<h2 class="footer-info-title title-style">О нас</h2>
-					<p>CAFUNÉ - наш сайт о красоте и здоровье волос.</p>
+					<p>CAFUNÉ — наш сайт о красоте и здоровье волос. Здесь вы найдёте подробные статьи и полезные советы по уходу за волосами.</p>
 				</section>
 			</div>
-			
+
 			<div class="footer-bottom">
-				<a class="footer-copyright" href="#" aria-label="CAFUNÉ">CAFUNÉ &#169;</a>
+				<a class="footer-copyright" aria-label="CAFUNÉ">CAFUNÉ &#169;</a>
 			</div>
 		</div>
 	</footer>
+	<script src="js/script.js"></script>
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+		(function (d, w, c) {
+			(w[c] = w[c] || []).push(function() {
+				try {
+					w.yaCounter49367911 = new Ya.Metrika2({
+					id:49367911,
+					clickmap:true,
+					trackLinks:true,
+					accurateTrackBounce:true,
+					webvisor:true
+				});
+			} catch(e) { }
+		});
 
+		var n = d.getElementsByTagName("script")[0],
+			s = d.createElement("script"),
+			f = function () { n.parentNode.insertBefore(s, n); };
+			s.type = "text/javascript";
+			s.async = true;
+			s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+			if (w.opera == "[object Opera]") {
+			d.addEventListener("DOMContentLoaded", f, false);
+			} else { f(); }
+		})(document, window, "yandex_metrika_callbacks2");
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/49367911" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
 </body>
 </html>
